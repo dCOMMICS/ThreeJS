@@ -40,3 +40,7 @@ camera.position.set( 0, 0, 100 );
 camera.lookAt( 0, 0, 0 );
 
 const scene = new THREE.Scene();
+
+//drawing lines
+
+const material = new THREE.LineBasicMaterial( { color: #ff9677 } );
