@@ -32,3 +32,20 @@ const Model = () => {
     );
   };
   
+  function App() {
+
+    return (
+      <div className="globe">
+        <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 4], fov: 50 }}>
+          <Suspense fallback={null}>
+            <Model />
+            {/* To add environment effect to the model */}
+            <Environment preset="city" />
+          </Suspense>
+        </Canvas>
+      </div>
+    );
+
+}
+
+export default App;
