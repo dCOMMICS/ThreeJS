@@ -10,3 +10,4 @@ renderer.setAnimationLoop( function () {
 	renderer.render( scene, camera );
 
 } );
+
