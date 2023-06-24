@@ -44,3 +44,10 @@ const scene = new THREE.Scene();
 //drawing lines
 
 const material = new THREE.LineBasicMaterial( { color: #ff9677 } );
+
+const points = [];
+points.push( new THREE.Vector3( - 10, 0, 0 ) );
+points.push( new THREE.Vector3( 0, 10, 0 ) );
+points.push( new THREE.Vector3( 10, 0, 0 ) );
+
+const geometry = new THREE.BufferGeometry().setFromPoints( points );
