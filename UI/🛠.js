@@ -90,7 +90,7 @@ export const Reflect = forwardRef(({ children, start: _start = [0, 0, 0], end: _
             }
           }
         })
-
+// CHECK CODE ON PRODUCTION//
         // Check onRayOver.
         for (intersect of intersects) {
           api.number++
