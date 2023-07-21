@@ -17,5 +17,5 @@ function Scene() {
   return <Rainbow ref={ref} startRadius={0} endRadius={0.65} fade={0} />
 }
 
-// this code creates rainbow 
+// this code creates rainbow  from nextjs forum//
 
