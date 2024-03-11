@@ -11,6 +11,7 @@ export default function App() {
   )
 }
 
+
 function Scene() {
   const ref = useRef()
   useFrame((state, delta) => (ref.current.rotation.z += delta / 5))
